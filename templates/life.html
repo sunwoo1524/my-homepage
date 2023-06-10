@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>콘웨이의 생명 게임</title>
+    <link rel="icon" href="static/gameoflife/favicon.ico">
+    <link rel="stylesheet" href="static/gameoflife/life.css">
+</head>
+<body>
+    <div class="control">
+        <label>
+            <input type="checkbox" id="play" class="play">
+            Play
+        </label>
+        <label>
+            <input type="range" id="speed" class="speed" min="1" max="50" step="0.1" value="1">
+            Speed:
+            <span id="speed-value">0</span>
+        </label>
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+    <script src="static/gameoflife/life.js"></script>
+</body>
+</html>

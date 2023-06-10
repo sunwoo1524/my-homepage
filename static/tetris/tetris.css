@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: black;
+    font-family: "Poppins";
+}
+
+.main {
+    position: relative;
+}
+
+canvas {
+    background-color: white;
+    border-radius: 2px;
+}
+
+.start-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #555555;
+    color: white;
+}
+
+.menu {
+    height: 600px;
+    margin-left: 20px;
+}
+
+p {
+    font-size: 15px;
+    color: gray;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+}
